@@ -11,8 +11,12 @@ import java.io.*;
 
 public class TestHello {
 
+   public static void main(String args[]) {
+      testHelloWorld();
+   }
+   
    @Test
-   public void testHelloWorld()
+   public static void testHelloWorld()
    {
      PrintStream originalOut = System.out;
      ByteArrayOutputStream bos = new ByteArrayOutputStream();
